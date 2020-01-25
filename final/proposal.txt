@@ -1,0 +1,13 @@
+1.) Name of website will be "Ray";
+2.) Purpose of my website is to inform the user about my life; 
+3.) Target audience is students, adults, any human being;
+4.) pages of content will be five plus javascript and css. the purpose of them is to show images
+ and text information about me;
+5.) Some features will be a contact form along with clickable images;
+6.) Visitors can navigate through several pages and see different images, videos, and small bio
+7.) Layout of website will be similar to an arts gallery webpage
+8.) i will be using dark and light colors for my overall theme
+9.) Webpage will have a top style navigation 
+10.) There are several similar website templates online that inspire my overall webpage
+11.) I see lightbox image gallery style that i would like to incorprate in my webpage
+12.) My website will be very straightforward and will consist of mainly images with figcaptions and a little description. It will also have a small biography about myself explaining my background and future goals. I am looking to have a very interactive gallery along with several videos.The contact page will be nice and simple and is just to leave any comments on my site

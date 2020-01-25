@@ -1,0 +1,42 @@
+body {
+    background-color: antiquewhite;
+    background: url("../img/IMG_8544.JPG");
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+
+
+}
+.navbar {
+    justify-content: flex;
+    align-content: space-around;
+}
+.coverPhoto {
+
+    color: white;
+    text-align: center;
+
+}
+.heading{
+    padding-top: 200px;
+}
+.travelButton a {
+    position: center;
+    padding: 20px 60px;
+    margin-right: 10px;
+
+    background-color: rgb(0, 0, 0, .7);
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    border-radius: 10px;
+}
+.travelButton a:hover {
+    background-color: rgb(0, 0, 0, 1);
+    color: red;
+    color: antiquewhite;
+
+}
+
+

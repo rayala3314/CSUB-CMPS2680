@@ -1,0 +1,24 @@
+
+body{
+    background: url("../img/contact.jpeg");
+    background-size: cover;
+    background-position: center;
+
+    
+
+}
+
+.contactHeading{
+    text-align: center;
+    color: white;
+    text-shadow: 1px 2px black;
+    font-family: serif;
+    
+}
+p{
+    color: white;
+    text-align: center;
+
+
+
+}
