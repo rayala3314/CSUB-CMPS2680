@@ -1,0 +1,44 @@
+* {
+	box-sizing: border-box;
+}
+
+
+div.column {
+	float: left;
+	width: 50%;
+}
+
+div#humanDice, div#computerDice {
+	font-size: 0;
+}
+
+div#humanDice > img, div#computerDice > img {
+	width: calc(100% / 6);
+}
+
+.winner {
+	background-color: green;
+	border: 1px solid black;
+	font-family: Cursive;
+}
+
+table {
+	border-collapse: collapse;
+	width: 100%;
+}
+
+table, tr, td {
+	border: 1px solid black;
+}
+#errors{
+	color: red;
+	font-size: 40px;
+}
+#table {
+	margin-top: 20px;
+}
+#tableTitle{
+	margin-top: 40%;
+	margin-left: 40%;
+	text-decoration: underline blue solid;
+}

@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<title>Homework 8</title>
+		<link rel="stylesheet" href="hw8.css">
+	</head>
+	<body>
+		
+
+		<h1>Dice Game</h1>
+
+		<div id="errors"></div>
+
+		<div class="column" id="human">
+
+			<!-- Human Side -->
+			<h2>Human</h2>
+			<div id="humanDice">
+				<img src="./dice/blank.png">
+			</div>
+			<h1 id="humanScore">&nbsp;</h1>
+
+			<!-- Controls -->
+			<input type="button" value="Roll" onclick="play()">
+			<input type="button" value="Stand" onclick="stand()">
+
+			
+		</div>
+		
+		<div class="column" id = "computer">
+			
+			<!-- Computer Side -->
+			<h2>Computer</h2>
+			<div id="computerDice">
+				<img src="./dice/blank.png">
+			</div>
+			<h1 id="computerScore">&nbsp;</h1>
+		</div>
+		<div id="tableTitle">
+			<h1>Score Box</h1>
+		</div>
+		<!-- Scores -->
+		<div id="table">
+			<table>
+				<tr>
+					<td colspan="2">Scores</td>
+				</tr>
+				<tr>
+					<td>Human</td>
+					<td>Computer</td>
+				</tr>
+				<tr>
+					<td id="humanWin">0</td>
+					<td id="computerWin">0</td>
+				</tr>
+			</table>
+		</div>
+		
+		
+		
+		
+		<script src="hw8.js"></script>
+		
+	</body>
+	</html>
+	
