@@ -1,0 +1,98 @@
+
+html {
+    height: 100%;
+}
+body {
+    background-image: url("../images/haircutbg.jpg ");
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+ 
+
+
+}
+
+
+h1 {
+    
+    text-align: center;
+    margin-left: 245px;
+    color: white;
+    font-size: 50px;
+    text-decoration-line: none;
+    text-shadow: 3px 2px black;
+
+}
+ 
+.sideNav {
+    background-color: rgb(41, 39, 10);
+    background-color: hsl(0, 0%, 0%, 0.6);
+    height: 100%;
+    width: 150px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+}
+
+.sideNav a {
+    padding: 25px 25px;
+    display: block;
+    font-size: 25px;
+    color: white;
+    text-decoration: none;
+
+}
+
+.sideNav a:hover {
+    color: rgb(205, 102, 102);
+    
+}
+.sideNav a:active {
+    color: rgb(205, 102, 102); 
+}
+
+img {
+
+    height: 100%;
+    width: 80%;
+    border: 2px solid white;
+    
+}
+img:hover{
+    cursor: hand;
+}
+.images{
+    margin: 30px 5px;
+    margin-left: 200px;
+    
+}
+.images img {
+    width: 400px;
+    height: 230px;
+    padding: 5px;
+    border: 5px solid white;
+}
+.description{
+    margin-left: 150px;
+    color: white;
+    text-shadow: 2px 1px black;
+    font-size: 20px;
+}
+.galleryLink {
+    color: blue;
+    text-decoration: none;
+    text-shadow: 1px 0.5px white;
+
+}
+.galleryLink:hover {
+    color: red;
+}
+.price {
+    color: white;
+    text-shadow: 2px 1px black;
+    text-decoration: underline whitesmoke;
+    float: right;
+    margin-right: 30%;
+}

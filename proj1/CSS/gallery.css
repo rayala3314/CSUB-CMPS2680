@@ -1,0 +1,74 @@
+
+html {
+    height: 100%;
+}
+body {
+    background-image: url("../images/body.jpg");
+    height: 500px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+
+}
+
+
+h1 {
+    
+    text-align: center;
+    margin-left: 245px;
+    color: white;
+    font-size: 50px;
+    text-decoration-line: none;
+    text-shadow: 3px 2px black;
+
+}
+ 
+.sideNav {
+    background-color: rgb(41, 39, 10);
+    background-color: hsl(0, 0%, 0%, 0.6);
+    height: 100%;
+    width: 150px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+}
+
+.sideNav a {
+    padding: 25px 25px;
+    display: block;
+    font-size: 25px;
+    color: white;
+    text-decoration: none;
+
+}
+
+.sideNav a:hover {
+    color: rgb(205, 102, 102);
+    
+}
+a.active {
+    color: rgb(205, 102, 102); 
+}
+
+.images{
+    margin: 30px 5px;
+    margin-left: 200px;
+
+}
+.images img {
+    width: 230px;
+    height: 230px;
+    padding: 5px;
+
+
+}
+.images img:hover {
+    width: 240px;
+    height: 240px;
+    padding: 0;
+    cursor: hand;
+    
+}

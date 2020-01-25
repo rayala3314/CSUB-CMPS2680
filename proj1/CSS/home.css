@@ -1,0 +1,92 @@
+
+html {
+    height: 100%;
+}
+body {
+    background-image: url("../images/body.jpg");
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+
+h1 {
+    
+    text-align: center;
+    margin-left: 245px;
+    color: white;
+    font-size: 50px;
+    text-decoration-line: none;
+    text-shadow: 3px 2px black;
+
+}
+ 
+.sideNav {
+    background-color: rgb(41, 39, 10);
+    background-color: hsl(0, 0%, 0%, 0.6);
+    height: 100%;
+    width: 150px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+}
+
+.sideNav a {
+    padding: 25px 25px;
+    display: block;
+    font-size: 25px;
+    color: white;
+    text-decoration: none;
+
+}
+
+.sideNav a:hover {
+    color: rgb(205, 102, 102);
+    
+}
+a.active    {
+    color: rgb(205, 102, 102);
+}
+.details {
+    display: flex;
+    margin-left: 40%;
+    margin-top: 10%;
+
+
+}
+p{
+    text-align: center;
+    font-size: 25px;
+    font-weight: 300;
+    font-family: cursive;
+    text-shadow: 1px 0px white;
+
+}
+.appointment {
+
+    margin-left: 70%;
+
+
+}
+.appointment a {
+    padding: 15px 15px;
+    display: block;
+    border-radius: 50%;
+    width: 50%;
+    background-color: antiquewhite;
+    text-align: center;
+    text-decoration: none;
+
+
+}
+.appointment a:hover {
+    background-color: white;
+    color: white;
+    border: 3px solid black;
+}
+.appointment a:visited {
+    color: black;
+}
